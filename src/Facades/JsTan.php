@@ -3,6 +3,7 @@ declare(strict_types=1);
 namespace LaravelJsTan\Facades;
 
 use Illuminate\Support\Facades\Facade;
+use JsTan\Client;
 
 class JsTan extends Facade
 {
@@ -11,7 +12,7 @@ class JsTan extends Facade
         return 'LaravelJsTan';
     }
 
-    public static function Client()
+    public static function Client():Client
     {
         return app('JsTanService');
     }
