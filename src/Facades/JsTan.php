@@ -11,7 +11,7 @@ class JsTan extends Facade
         return 'LaravelJsTan';
     }
 
-    public static function getJsTanService()
+    public static function Client()
     {
         return app('JsTanService');
     }
