@@ -4,7 +4,7 @@ namespace LaravelJsTan;
 
 use Illuminate\Foundation\Application;
 use Illuminate\Support\ServiceProvider;
-use JsTan\Client as Client;
+use JsTan\Client;
 
 
 class JsTanServiceProvider extends ServiceProvider
