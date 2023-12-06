@@ -8,7 +8,12 @@ class JsTan extends Facade
 {
     protected static function getFacadeAccessor(): string
     {
-        return 'JsTanService';
+        return 'LaravelJsTan';
+    }
+
+    public static function getJsTanService()
+    {
+        return app('JsTanService');
     }
 
 }
