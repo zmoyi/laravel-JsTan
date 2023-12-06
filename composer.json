@@ -20,10 +20,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "LaravelJstan\\JsTanServiceProvider"
+                "LaravelJsTan\\JsTanServiceProvider"
             ],
             "aliases": {
-                "Jstan": "LaravelJstan\\Facades\\JsTan"
+                "JsTan": "LaravelJsTan\\Facades\\JsTan"
             }
         }
     }
