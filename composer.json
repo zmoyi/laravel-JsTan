@@ -1,0 +1,30 @@
+{
+    "name": "zmoyi/laravel-jstan",
+    "description": "聚水潭sdk-laravel",
+    "keywords": ["jushuitan", "erp"],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "LaravelJsTan\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "刘铭熙",
+            "email": "zmszm666@163.com"
+        }
+    ],
+    "require": {
+        "zmoyi/jstan": "^1.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaravelJstan\\JsTanServiceProvider"
+            ],
+            "aliases": {
+                "Jstan": "LaravelJstan\\Facades\\JsTan"
+            }
+        }
+    }
+}
