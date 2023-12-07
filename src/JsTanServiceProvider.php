@@ -9,6 +9,10 @@ use JsTan\Client;
 
 class JsTanServiceProvider extends ServiceProvider
 {
+    /**
+     * @return void
+     * 引导所有的应用服务
+     */
     public function boot(): void
     {
         if ($this->app instanceof Application && $this->app->runningInConsole()) {
@@ -19,6 +23,10 @@ class JsTanServiceProvider extends ServiceProvider
         }
     }
 
+    /**
+     * @return void
+     * 注册所有的应用服务
+     */
     public function register(): void
     {
         $this->mergeConfigFrom(dirname(__DIR__).'/config/jsTan.php', 'jsTan');
