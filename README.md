@@ -7,6 +7,8 @@ laravel-JsTan 是基于[聚水潭 sdk（2.0）](https://github.com/zmoyi/JsTan)�
 ## 特点
 
 - 基于laravel10开发，支持laravel9以上版本
+- 其他版本未经过测试 理论支持 laravel 8+ 需要自行修改 php 版本
+- php 版本 >= 8.1 （理论支持php8.1以下版本，需要自行修改 php 版本）
 
 ## 安装
 
