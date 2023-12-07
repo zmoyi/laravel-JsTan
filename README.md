@@ -3,6 +3,7 @@
 ## 简介
 
 laravel-JsTan 是基于[聚水潭 sdk（2.0）](https://github.com/zmoyi/JsTan)的 Laravel 聚水潭 SDK，支持laravel9.0以上版本。
+
 [![Latest Stable Version](http://poser.pugx.org/zmoyi/laravel-jstan/v)](https://packagist.org/packages/zmoyi/laravel-jstan) [![Total Downloads](http://poser.pugx.org/zmoyi/laravel-jstan/downloads)](https://packagist.org/packages/zmoyi/laravel-jstan) [![License](http://poser.pugx.org/zmoyi/laravel-jstan/license)](https://packagist.org/packages/zmoyi/laravel-jstan) [![Monthly Downloads](http://poser.pugx.org/zmoyi/laravel-jstan/d/monthly)](https://packagist.org/packages/zmoyi/laravel-jstan) [![Daily Downloads](http://poser.pugx.org/zmoyi/laravel-jstan/d/daily)](https://packagist.org/packages/zmoyi/laravel-jstan) [![Version](http://poser.pugx.org/zmoyi/laravel-jstan/version)](https://packagist.org/packages/zmoyi/laravel-jstan) [![PHP Version Require](http://poser.pugx.org/zmoyi/laravel-jstan/require/php)](https://packagist.org/packages/zmoyi/laravel-jstan) 
 
 ## 特点
