@@ -30,8 +30,6 @@ class JsTanServiceProvider extends ServiceProvider
     public function register(): void
     {
         $this->mergeConfigFrom(dirname(__DIR__).'/config/jsTan.php', 'jsTan');
-
-
         $this->app->singleton('JsTanService', function () {
             return Client::getInstance(config('jsTan'));
         });
