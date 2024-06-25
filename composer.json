@@ -15,7 +15,7 @@
         }
     ],
     "require": {
-        "zmoyi/jstan": "^1.02"
+        "zmoyi/jstan": "^1.04"
     },
     "extra": {
         "laravel": {

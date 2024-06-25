@@ -14,6 +14,8 @@ return [
     'appSecret' => env('STAN_APP_SECRET',''),
     // 版本号
     'version' => '2',
+    // 时间戳
+    'timestamp'=> time(),
     // 字符集
     'charset' => 'utf-8',
     // 是否验证证书
